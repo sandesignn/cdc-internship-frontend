@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -42,3 +43,233 @@
 @import "spinners";
 @import "utilities";
 @import "print";
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+.brand-text-icon {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  color: $gray-900;
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+  }
+}
+
+header {
+  border-bottom: 1px solid $gray-200;
+  width: 100%;
+  position: relative;
+  margin-bottom: 50px;
+  font-family: "Nunito", sans-serif;
+
+  .navbar {
+    height: 70px;
+
+    ul.navbar-nav {
+      li.nav-item {
+        &.active {
+          a.nav-link {
+            color: $primary;
+          }
+        }
+        a {
+          &.nav-link {
+            //letter-spacing: 1px;
+            color: $gray-900;
+            font-weight: 700;
+            padding-right: 1.5rem;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.form-search {
+  margin-bottom: 1rem;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 40px;
+
+  .input-field {
+    border-style: none;
+    border-bottom: 2px solid $gray-500;
+    width: 80%;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    color: $gray-900;
+    &:focus {
+      outline: none;
+      border-bottom: 2px solid $primary;
+    }
+  }
+  .student-icon {
+    margin-left: -20px;
+  }
+}
+::placeholder {
+  color: $gray-500;
+}
+
+.container-internship {
+  background-color: #f5f6ff;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  .img-card {
+    border-radius: 5px;
+    width: 111px;
+    height: 111px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: -50px;
+    &.bordered {
+      border: 1px solid $gray-500;
+    }
+    .img-wrapper {
+      height: 100%;
+      overflow: hidden;
+      border: 0;
+      border-radius: 5px;
+      .thumbnail {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+  .content-internship {
+    margin: 20px 0 10px -20px;
+    .title-link {
+      color: $gray-900;
+      h4 {
+        font-weight: bold;
+      }
+    }
+    p {
+      line-height: 100%;
+      color: $gray-700;
+    }
+    .properties {
+      margin-left: -16px;
+    }
+  }
+}
+
+.container-magang {
+  background-color: #f5f6ff;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  .img-card {
+    border-radius: 5px;
+    width: 111px;
+    height: 111px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: -50px;
+    &.bordered {
+      border: 1px solid $gray-500;
+    }
+    .img-wrapper {
+      height: 100%;
+      overflow: hidden;
+      border: 0;
+      border-radius: 5px;
+      .thumbnail {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+  .content-internship {
+    margin: 20px 0 10px 40px;
+    .title-link {
+      color: $gray-900;
+      h5 {
+        font-weight: bold;
+      }
+    }
+    p {
+      line-height: 100%;
+      color: $gray-700;
+    }
+  }
+  .properties {
+    position: relative;
+    .btn-like {
+      outline: none;
+      border: none;
+      background: none;
+      &:hover {
+        background-color: rgb(255, 247, 132);
+        border-radius: 5px;
+      }
+    }
+  }
+  .applyment {
+    margin: 20px 0 0 0;
+  }
+}
+
+footer {
+  border-top: 1px solid $gray-200;
+  padding-top: 50px;
+
+  .brand-tagline {
+    margin-top: 8px;
+    color: $gray-500;
+    font-weight: 300;
+  }
+
+  .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+    a,
+    span {
+      color: $gray-500;
+      font-weight: 300;
+    }
+    a {
+      @include hover-focus {
+        color: $gray-800;
+      }
+    }
+  }
+  .copyrights {
+    margin: 50px 0;
+    font-weight: 300;
+    color: $gray-500;
+  }
+}
+
+//Responsive Style
+@media (max-width: 575.98px) {
+  .navbar {
+    ul.navbar-nav {
+      background-color: $gray-100;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 5px;
+      margin-top: 10px;
+    }
+  }
+  .img-hero {
+    display: none;
+  }
+  .form-search {
+    margin-top: 30px;
+  }
+}
