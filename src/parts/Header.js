@@ -14,7 +14,7 @@ export default function Header(props) {
         <nav className="navbar navbar-expand-lg navbar-light">
           <BrandIcon />
           <button
-            class="navbar-toggler"
+            className="navbar-toggler btn-primary "
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
@@ -28,13 +28,15 @@ export default function Header(props) {
             <ul className="navbar-nav ml-auto">
               <li className={`nav-item ${getNavLinkClass("/internship")}`}>
                 <Button className="nav-link" type="link" href="/internship">
-                  Internship List
+                  Internship
+                </Button>
+              </li>
+              <li className={`nav-item ${getNavLinkClass("/petunjuk")}`}>
+                <Button className="nav-link" type="link" href="/petunjuk">
+                  Petunjuk
                 </Button>
               </li>
               <li className={`nav-item ${getNavLinkClass("/login")}`}>
-                {/* <Button className="nav-link" type="link" href="/login">
-                  Signin
-                </Button> */}
                 <Button
                   className="btn px-3"
                   hasShadow

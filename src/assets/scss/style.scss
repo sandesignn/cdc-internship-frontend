@@ -208,7 +208,6 @@ header {
     }
   }
   .properties {
-    position: relative;
     .btn-like {
       outline: none;
       border: none;
@@ -254,7 +253,87 @@ footer {
     color: $gray-500;
   }
 }
+section {
+  margin-bottom: 50px;
+}
 
+.container-internship-detail {
+  .desc-content {
+    width: 100%;
+  }
+  .right-side {
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    .company-profile {
+      padding: 16px;
+      border: 0.2px solid $gray-500;
+    }
+    .another-internship {
+      padding: 16px;
+      background-color: #f9f9f9;
+    }
+  }
+  .title-internship {
+    margin: 20px 0 10px 10px;
+    width: 100%;
+    a {
+      color: $gray-900;
+      h5 {
+        font-weight: bold;
+      }
+    }
+    hr {
+      border: 0.1px solid $gray-500;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    p {
+      line-height: 100%;
+      color: $gray-700;
+    }
+    .properties {
+      display: flex;
+      flex-direction: row;
+      .properties-child {
+        margin-right: 30px;
+      }
+
+      .content {
+        width: 100%;
+      }
+    }
+    .line {
+      padding-right: 15px;
+      hr {
+        width: 100%;
+      }
+    }
+  }
+  .img-card {
+    border-radius: 5px;
+    width: 170px;
+    height: 170px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: -50px;
+    &.bordered {
+      border: 1px solid $gray-500;
+    }
+    .img-wrapper {
+      height: 100%;
+      overflow: hidden;
+      border: 0;
+      border-radius: 5px;
+      .thumbnail {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
 //Responsive Style
 @media (max-width: 575.98px) {
   .navbar {

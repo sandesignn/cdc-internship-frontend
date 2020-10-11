@@ -1,0 +1,12 @@
+[1002/150424.828:ERROR:process_reader_win.cc(188)] ResumeThread: The parameter is incorrect. (0x57)
+[1002/150424.835:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1002/150424.836:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1002/150424.836:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1002/150424.836:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1002/150424.836:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1002/150424.836:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1002/150424.836:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1002/150424.836:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1002/150424.836:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1002/150424.837:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[1002/150424.841:ERROR:exception_snapshot_win.cc(99)] thread ID 15976 not found in process
