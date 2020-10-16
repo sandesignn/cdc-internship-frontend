@@ -10,3 +10,6 @@
 [1002/150424.836:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
 [1002/150424.837:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
 [1002/150424.841:ERROR:exception_snapshot_win.cc(99)] thread ID 15976 not found in process
+[1011/211840.619:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/205444.146:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/143946.538:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

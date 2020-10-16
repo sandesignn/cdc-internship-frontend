@@ -39,7 +39,7 @@ export default function Internship(props) {
                     <div className="col-auto">
                       <img src={IconClock} alt="time-upload" />
                       <span className="text-gray-700 font-weight-light ml-2">
-                        2 hari yang lalu  
+                        2 hari yang lalu
                       </span>
                     </div>
                     <div className="col-auto">
@@ -66,7 +66,13 @@ export default function Internship(props) {
                   <img src={IconCard} alt="time-left" />
                   <span className="text-gray-700 ml-3">8 Pelamar</span>
                 </div>
-                <Button isPrimary className="btn px-5 mt-4 mb-4" hasShadow>
+                <Button
+                  isPrimary
+                  type="link"
+                  href="/detail"
+                  className="btn px-5 mt-4 mb-4"
+                  hasShadow
+                >
                   Selengkapnya
                 </Button>
               </div>
@@ -126,7 +132,13 @@ export default function Internship(props) {
                   <img src={IconCard} alt="time-left" />
                   <span className="text-gray-700 ml-3">8 Pelamar</span>
                 </div>
-                <Button isPrimary className="btn px-5 mt-4" hasShadow>
+                <Button
+                  type="link"
+                  href="/detail"
+                  isPrimary
+                  className="btn px-5 mt-4"
+                  hasShadow
+                >
                   Selengkapnya
                 </Button>
               </div>

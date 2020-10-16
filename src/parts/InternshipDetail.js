@@ -93,7 +93,7 @@ const InternshipDetail = () => {
               <div className="row">
                 <div className="container desc-content mb-5">
                   <div id="accordion">
-                    <div class="card">
+                    <div class="card mb-3">
                       <div
                         class="card-header"
                         data-toggle="collapse"
@@ -115,7 +115,7 @@ const InternshipDetail = () => {
                         aria-labelledby="headingOne"
                         data-parent="#accordion"
                       >
-                        <div class="card-body">
+                        <div class="card-body font-weight-bold text-gray-700">
                           Anim pariatur cliche reprehenderit, enim eiusmod high
                           life accusamus terry richardson ad squid. 3 wolf moon
                           officia aute, non cupidatat skateboard dolor brunch.
@@ -173,7 +173,7 @@ const InternshipDetail = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 right-side">
+            <div className="col-md right-side">
               <div className="company-profile mb-3">
                 <h6 className="font-weight-bold text-gray-700">
                   Tentang PT. Pertamina EP Asset 2
